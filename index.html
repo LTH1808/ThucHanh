@@ -7,62 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-
-    <style>
-    
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
+        <form method="get" action="simpleform.html" class="wufoo" >
+        </form>
+        <h2>Order Form</h2>
+<h4>What would you like to buy?</h4>
+<select>
+<option value = "  ">A</option>
+<option>B (+  0.5$)</option>
+<option>C (+  0.5$)</option>
+</select>
+<h4>How many would you like to order?<h4>
+<input type="radio" name="rd"/> 1 - $10 <br/>
+<input type="radio" name="rd"/> 2 - $20 <br/>
+<input type="radio" name="rd"/> 3 - $25 <br/>
+<h4>Name <span style="color: red">*</span> </h4>
+<input type = "text" name="firstname" placeholder="FirstName" size="15"/>
+<input type = "text" name="lastname" placeholder="LastName" size="15"/>
+<h4>Email</h4>
+<input type = "text" name="email" size="35"/>
+<h4>Phone Number</h4>
+<input type = "text" name="phone1" size="5"/> -
+<input type = "text" name="phone2" size="5"/> -
+<input type = "text" name="phone3" size="5"/> 
+<h4><input type = "button" name="btSubmit" value="Submit"/></h4>
+<style>
+    .wufoo {
+    font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
     }
-    
-    td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-     }
-
-    tr:nth-child(odd) {
-    background-color: #dddddd;
-    }
-    
     </style>
-    <table>
-        <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
-        </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
-        </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
-        <tr>
-          <td>Ernst Handel</td>
-          <td>Roland Mendel</td>
-          <td>Austria</td>
-        </tr>
-        <tr>
-          <td>Island Trading</td>
-          <td>Helen Bennett</td>
-          <td>UK</td>
-        </tr>
-        <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Yoshi Tannamuri</td>
-          <td>Canada</td>
-        </tr>
-        <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Giovanni Rovelli</td>
-          <td>Italy</td>
-        </tr>
-      </table>
 </body>
 </html>
